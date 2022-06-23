@@ -8,6 +8,7 @@ from friends_by_age import mainScript
 from min_temperatures import mainScript
 # from min_temperatures_solution import mainScript
 from most_popular_movie_with_countByKey import mainScript
+from  most_popular_movie_with_reduce import mainScript
 from pyspark import SparkConf, SparkContext
 
 conf = SparkConf().setMaster("local").setAppName("FriendsByAge")
